@@ -1,0 +1,80 @@
+body {
+    background-color: #F5F5F5;
+}
+.ns-container {
+    margin: 20px auto;
+    width: 50%;
+}
+ul.note-strips {
+    padding: 0;
+    margin: 0;
+    color: #F9FEDD;
+    font-family: 'Tangerine', serif;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px #555;
+}
+ul.note-strips li {
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.7);
+    box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.7);
+    overflow: hidden;
+    height: 40px;
+}
+ul.note-strips li span {
+    font-size: 25px;
+    line-height: 45px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    bottom: 0;
+    right: 0;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+ul.note-strips li .big {
+    display: inline-block;
+    font-size: 40px;
+    background-color: #222;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    cursor: pointer;
+    transition: width 0.1s linear
+}
+ul.note-strips li .big:hover {
+  opacity: 0.8;
+  width: 52px;
+}
+ul.note-strips .red {
+    background-color: #BE4757;
+}
+ul.note-strips .green {
+    background-color: #8FB367;
+}
+ul.note-strips .blue {
+    background-color: #6D94C3;
+}
+ul.note-strips .orange {
+    background-color: #F2A02B;
+}
+ul.note-strips .pink {
+    background-color: #FA6766;
+}
+ul.note-strips .dark-green {
+    background-color: #3AA78B;
+}
+ul.note-strips .grey {
+    background-color: #49515F;
+}
